@@ -1,0 +1,211 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: url(https://s3-alpha-sig.figma.com/img/689a/2467/122f863358e82f3cc1dbab4d71a827f9?Expires=1700438400&Signature=hfd7wu4tAuMhqMhxVm6KydPcIToWmMGFBPQsi-HEYcBHLZJ92Rf9wSDGSombeh3P2Ao3xp96ZdratleMDra58wwHkinTCy8aggn-tS7N6GhQM~uoWV43Ibi5XNTZadgIydXBnMV-kWA2eBqvrWb0v3Sc-1njrWF5oWfrQul183jgB4UO1hAcgq50kZme9Z0sw7ricVmJG8t4DWrDAEOXlmorOr-t1nbA5h660BnGysv4Oo0Y4Fz4EMO82A~I1hG936GiXNyfKqt-17VPKBPRVyan3~iHeubyBcWmlghS~M2l9OFlpzlYnGee-Uv-Y1WvRUlg0HfChPGjRbhDiwuDoQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: cover;
+    background-position: center;
+    height: 700px; 
+    border-radius: 24px;
+  }
+.container { width: 1380px; margin: auto;
+}
+body {
+    padding-top: 20px;
+}
+
+.picture {
+    position: relative;
+    float: left;
+    width: 22.50px; 
+    height: 19.50px; 
+    left: 0.75px; 
+    top: 2.25px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.flight {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 29px; 
+    float: left; 
+    padding-top: 20px;
+    color: white;
+}
+
+.bed {
+    position: relative;
+    float: left;
+    width: 22.50px; 
+    height: 19.50px; 
+    left: 0.75px; 
+    top: 2.25px;
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+.find {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 29px; 
+    float: left;
+    padding-top: 20px;
+    color: white;
+}
+
+.globe {
+    text-align: center;
+    padding-top: 20px;
+}
+.signup {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    word-wrap: break-word;
+    background-color: white;
+    margin: 0 30px;
+    float: right;
+    width: 100px;
+    height: 38px;
+    padding-top: 11px;
+    margin-top: 9px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+
+.log {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 29px;
+    float: right;
+    padding-top: 20px;
+    color: white;
+}
+
+.first {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+    font-size: 45px;
+}
+
+.second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.third {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.secondcontainer {
+    width: 1250px; 
+    height: 300px;
+    margin-top: 250px;  
+    margin-left: 65px;
+    background: white; 
+    background-position: center;
+    box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15); 
+    border-radius: 16px; flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 32px;
+}
+
+.pictureplane {
+    position: relative;
+    float: left;
+    width: 22.50px; 
+    height: 19.50px; 
+    left: 0.75px; 
+    top: 2.25px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.flightss {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 29px; 
+    float: left; 
+    padding-top: 20px;
+    color: black;
+}
+
+.blackbed {
+    position: relative;
+    float: left;
+    width: 22.50px; 
+    height: 19.50px; 
+    left: 0.75px; 
+    top: 2.25px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.spacer {
+    clear: both;
+}
+
+.stay {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 29px; 
+    float: left;
+    padding-top: 20px;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.fourforms {
+    margin-top: 20px;
+}
+
+.from {
+    float: left;
+    margin-left: 20px;
+}
+
+.destination {
+    float: left;
+    margin-left: 20px;
+}
+
+.trippy {
+    float: left;
+    margin-left: 20px;
+}
+
+.rightform {
+    float: right;
+}
+
+.passenger {
+    float: right;
+    margin-right: 20px;
+}
+
+
+.departure {
+    float: right;
+    margin-right: 20px;
+}
+
+.inputsize {
+    width:300px;
+    height:50px;
+}
+
+.inputrip {
+    width:150px;
+    height:50px;
+}

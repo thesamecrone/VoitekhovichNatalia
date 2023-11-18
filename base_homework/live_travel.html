@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="picture"><img src="airplane.png" alt="pic"></div>
+            <p class="flight">Find Flight</p>
+            <div class="bed"><img src="ion_bed.png" alt="pic"></div>
+            <p class="find">Find Stays</p>
+            <p class="signup">Sign Up</p>
+            <p class="log">Login</p>
+            <div class="globe"><img src="Group.png" alt="pic"></div>
+        </div>
+
+        <div>
+            <h2 class="first">Helping Others</h2>
+            <h1 class="second">LIVE & TRAVEL</h1>
+            <h5 class="third">Special offers to suit your plan</h5>
+        </div>
+
+        <div class="secondcontainer">
+            <div>
+                <div class="pictureplane"><img src="airplaneblack.png" alt="pic"></div>
+                <p class="flightss">Flights</p>
+                <div class="blackbed"><img src="ion_bedblack.png" alt="pic"></div>
+                <p class="stay">Stays</p>
+                <div class="spacer"></div>
+            </div>
+
+            <div class="fourforms">
+                <div class="from">
+                    <form class="destination" action="handler.php">
+                        <input class="inputsize" type="select" name="fromto" value="Lahore - Karachi">
+                        <input type="button">
+                    </form>
+
+                    <form class="trippy" action="select1.php" method="post">
+                        <select class="inputrip" name="trip">
+                        <option value="oneway">One-way</option>
+                        <option selected value="return">Return</option>
+                        </select>
+                        <input type="button">
+                    </form>
+                </div>
+
+                <div class="rightform">
+                    <form class="passenger" action="select1.php">
+                        <input class="inputsize" type="select" name="pass" value="1 Passenger, Economy">
+                        <input type="button">
+                    </form>
+
+                    <form class="departure" action="select1.php">
+                        <input class="inputsize" type="select" name="depart" value="07 Nov 22 - 13 Nov 22">
+                        <input type="button">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+
+ 
+
+</body>
+</html>
