@@ -36,31 +36,31 @@
 
             <div class="fourforms">
                 <div class="from">
-                    <form class="destination" action="handler.php">
+                    <form class="destination" action="https://fe.it-academy.by/TestForm.php" method="post">
                         <input class="inputsize" type="select" name="fromto" value="Lahore - Karachi">
-                        <input type="button">
-                    </form>
-
-                    <form class="trippy" action="select1.php" method="post">
-                        <select class="inputrip" name="trip">
-                        <option value="oneway">One-way</option>
-                        <option selected value="return">Return</option>
-                        </select>
-                        <input type="button">
-                    </form>
+                       
+                        <span class="fromto">From-To</span>
+                        <span class="way"><input type="button"><img src="ion_swap-horizontal.png" alt="pic"></span>
+                </div>
+                    
+                <div class="trippy" action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <select class="inputrip" name="trip">
+                    <option value="oneway">One-way</option>
+                    <option selected value="return">Return</option>
+                    </select>
+                    <input type="button">
                 </div>
 
                 <div class="rightform">
-                    <form class="passenger" action="select1.php">
-                        <input class="inputsize" type="select" name="pass" value="1 Passenger, Economy">
-                        <input type="button">
-                    </form>
-
-                    <form class="departure" action="select1.php">
-                        <input class="inputsize" type="select" name="depart" value="07 Nov 22 - 13 Nov 22">
-                        <input type="button">
-                    </form>
+                    <input class="inputsize" type="select" name="pass" value="1 Passenger, Economy">
+                    <input type="button">
                 </div>
+
+                <div class="departure">
+                    <input class="inputsize" type="select" name="depart" value="07 Nov 22 - 13 Nov 22">
+                    <input type="button">
+                </div>
+
                 <div class="clear"></div>
             </div>
 
