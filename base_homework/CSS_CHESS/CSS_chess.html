@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>*** unnamed text ***</title></head><body>
-<style>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>*** unnamed text ***</title>
 
-  table.CHESS
-  {
-    border-collapse: collapse;
-  }
+  <style>
 
-  table.CHESS td
-  {
-    width: 50px;
-    height: 50px;
-    border: solid gray 1px;
-  }
+    table.CHESS {
+      border-collapse: collapse;
+    }
 
-  tr:nth-child(even) td:nth-child(odd) {
-    background-color: black;
-  }
+    table.CHESS td {
+      width: 50px;
+      height: 50px;
+      border: solid gray 1px;
+      }
 
-  tr:nth-child(odd) td:nth-child(even){
+    tr:nth-child(even) td:nth-child(odd) {
       background-color: black;
-    }
+      }
 
-  table.CHESS td:nth-child(1), table.CHESS td:last-child, table.CHESS tr:first-child td, table.CHESS tr:last-child td {
-    background-color: rgb(172, 227, 172);
-    height: 20px;
-    width: 20px;
-    }
+    tr:nth-child(odd) td:nth-child(even){
+      background-color: black;
+      }
 
+    table.CHESS td:nth-child(1), table.CHESS td:last-child, table.CHESS tr:first-child td, table.CHESS tr:last-child td {
+      background-color: rgb(172, 227, 172);
+      height: 20px;
+      width: 20px;
+      }
 
-
-</style>
+  </style>
+</head>
 
 <table class='CHESS'>
 <tr>

@@ -7,14 +7,28 @@
     <link type="image/x-icon" href="images/icons8-болванка-cd-16.png" rel="shortcut icon">
     <style>
         body {
-            background-image: url(images/cloudy-sky-landscape-wallpaper.jpg);
-            background-size: cover;
+        background-image: url(images/cloudy-sky-landscape-wallpaper.jpg);
+        background-size: cover;
         }
+
+        @keyframes color-change {
+            0% {
+        color: blue;
+        }
+
+        50% {
+        color: rgb(186, 62, 62);
+        }
+
+        100% {
+        color: blue;
+        }
+}
         h2 {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 50px;
-            text-align: center;
-            color: #ce9486a7;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        text-align: center;
+        color: #ce9486a7;
         }
 
         p {
@@ -22,6 +36,10 @@
         font-size: 20px;
         text-align: center;
         color: #ce9486a1;
+        }
+
+        .animation-text {
+        animation: color-change 5s infinite;
         }
 
         a {
@@ -64,7 +82,7 @@
 </head>
 <body>
     <header>
-        <h2>Hello, stranger</h2>
+        <h2 class="animation-text">Hello, stranger</h2>
         <p>What are you looking for?
             <span class="track">
                 <audio autoplay="autoplay" controls>
@@ -79,13 +97,13 @@
         <div>
             <h3>HTML/CSS</h3>
             <ul>Base homework</ul>
-            <li><a href="base_homework/Diary.html" target="_blank" title="Diary Project">Diary</a></li>
-            <li><a href="base_homework/VIZBOR/vizbor.html" target="_blank" title="Vizbor Project">vizbor</a></li>
-            <li><a href="base_homework/CHILDBOOK.html" target="_blank" title="Book">CHILDBOOK</a></li>
-            <li><a href="base_homework/SG.html" target="_blank" title="S&G">SG</a></li>
-            <li><a href="base_homework/FONT_GWF.html" target="_blank" title="Fonts">FONT_GWF</a></li>
-            <li><a href="base_homework/DIV_FRAME.html" target="_blank" title="Frame">DIV_FRAME</a></li>
-            <li><a href="base_homework/maket_table.html" target="_blank" title="Maket (table)">maket_table</a></li>
+            <li><a href="base_homework/Diary.html" target="_blank" title="Diary Project">Diary - checked</a></li>
+            <li><a href="base_homework/VIZBOR/vizbor.html" target="_blank" title="Vizbor Project">vizbor - checked</a></li>
+            <li><a href="base_homework/CHILDBOOK.html" target="_blank" title="Book">CHILDBOOK - checked</a></li>
+            <li><a href="base_homework/SG.html" target="_blank" title="S&G">SG - checked</a></li>
+            <li><a href="base_homework/FONT_GWF.html" target="_blank" title="Fonts">FONT_GWF - checked</a></li>
+            <li><a href="base_homework/DIV_FRAME.html" target="_blank" title="Frame">DIV_FRAME - checked</a></li>
+            <li><a href="base_homework/maket_table.html" target="_blank" title="Maket (table)">maket_table - checked</a></li>
             <li><a href="base_homework/maket_div.html" target="_blank" title="Maket (div)">maket_div</a></li>
             <li><a href="base_homework/CSS_CHESS/LINKS.html" target="_blank" title="5 links">LINKS</a></li>
             <li><a href="base_homework/CSS_CHESS/CSS_chess.html" target="_blank" title="Chess">CSS_chess</a></li>
