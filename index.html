@@ -29,6 +29,7 @@
         font-size: 50px;
         text-align: center;
         color: #ce9486a7;
+        letter-spacing: 10px;
         }
 
         p {
@@ -53,6 +54,7 @@
         .container {
         display: flex;
         justify-content: space-between;
+            flex-wrap: wrap;
         }
 
         ul {
@@ -78,6 +80,42 @@
         padding-right: 100px;
         height: 450px
         }
+
+        .dropbtn {
+            background-color: #152C4E;
+            color: white;
+            padding: 5px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #C9BAB1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #ECA388;}
     </style>
 </head>
 <body>
@@ -91,25 +129,30 @@
                     </audio>
             </span>
         </p>
+        
     </header>
     <div class="container">
 
-        <div>
-            <h3>HTML/CSS</h3>
-            <ul>Base homework</ul>
-            <li><a href="base_homework/Diary.html" target="_blank" title="Diary Project">Diary - checked</a></li>
-            <li><a href="base_homework/VIZBOR/vizbor.html" target="_blank" title="Vizbor Project">vizbor - checked</a></li>
-            <li><a href="base_homework/CHILDBOOK.html" target="_blank" title="Book">CHILDBOOK - checked</a></li>
-            <li><a href="base_homework/SG.html" target="_blank" title="S&G">SG - checked</a></li>
-            <li><a href="base_homework/FONT_GWF.html" target="_blank" title="Fonts">FONT_GWF - checked</a></li>
-            <li><a href="base_homework/DIV_FRAME.html" target="_blank" title="Frame">DIV_FRAME - checked</a></li>
-            <li><a href="base_homework/maket_table.html" target="_blank" title="Maket (table)">maket_table - checked</a></li>
-            <li><a href="base_homework/maket_div.html" target="_blank" title="Maket (div)">maket_div</a></li>
-            <li><a href="base_homework/CSS_CHESS/LINKS.html" target="_blank" title="5 links">LINKS</a></li>
-            <li><a href="base_homework/CSS_CHESS/CSS_chess.html" target="_blank" title="Chess">CSS_chess</a></li>
-            <li><a href="base_homework/CSS_CHESS/chLbg.html" target="_blank" title="Harry Kasparov">chLbg</a></li>
-            <li><a href="base_homework/CSS_CHESS/chLb.html" target="_blank" title="Harry Kasparov (version 2)">chLb</a></li>
-        </div>
+        <div class="dropdown">
+            <a href="https://docs.google.com/spreadsheets/d/1DC14rJMI7eaKjhx_OzVsNo3oRHh7CtqV2Zhoop5i5W4/edit?pli=1#gid=98198607" title="home">
+              HTML/CSS
+            </a>
+            <button class="dropbtn">Base Homework</button>
+            <div class="dropdown-content">
+              <a href="base_homework/Diary.html" target="_blank" title="Diary Project">Diary - checked</a>
+              <a href="base_homework/VIZBOR/vizbor.html" target="_blank" title="Vizbor Project">vizbor - checked</a>
+              <a href="base_homework/CHILDBOOK.html" target="_blank" title="Book">CHILDBOOK - checked</a>
+              <a href="base_homework/SG.html" target="_blank" title="S&G">SG - checked</a>
+              <a href="base_homework/FONT_GWF.html" target="_blank" title="Fonts">FONT_GWF - checked</a>
+              <a href="base_homework/DIV_FRAME.html" target="_blank" title="Frame">DIV_FRAME - checked</a>
+              <a href="base_homework/maket_table.html" target="_blank" title="Maket (table)">maket_table - checked</a>
+              <a href="base_homework/maket_div.html" target="_blank" title="Maket (div)">maket_div</a>
+              <a href="base_homework/CSS_CHESS/LINKS.html" target="_blank" title="5 links">LINKS</a>
+              <a href="base_homework/CSS_CHESS/CSS_chess.html" target="_blank" title="Chess">CSS_chess</a>
+              <a href="base_homework/CSS_CHESS/chLbg.html" target="_blank" title="Harry Kasparov">chLbg</a>
+              <a href="base_homework/CSS_CHESS/chLb.html" target="_blank" title="Harry Kasparov (version 2)">chLb</a>
+            </div>
+          </div>
 
         <div>
             <img src="images/n57016-removebg-preview.png" alt="pic">

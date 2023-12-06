@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket Class</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .flexcontainer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #CFE2F3;
+            height: 100px;
+        }
+
+        .square {
+            background-color: #93C47D;
+            width: 300px;
+            height: 50px;
+            align-self: center;
+        }
+
+        .flexcontainer {
+            display: flex;
+
+        }
+
+        .container {
+            display: flex;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #93C47D;
+            height: 500px; 
+            width: 400px;  
+        }
+
+        .yellow {
+            background-color: #FFE599;
+            width: 300px;
+            height: 50px;
+            align-self: center;
+        }
+
+        .violet {
+            display: flex;
+            justify-content: center;
+            flex-flow: wrap;
+            background-color: #8E7CC3;
+            width: 800px;
+            height: 500px;
+        }
+
+        .bigsquare {
+            margin: 20px;
+            width: 300px;
+            height: 170px;
+            background-color: #CFE2F3;
+            margin-top: 40px;
+        }
+
+        .sidebar {
+            background-color: #93C47D;
+            height: 500px;
+            width: 400px;
+        }
+
+        .supersquare {
+            height: 400px;
+            width: 300px;
+            background-color: #CFE2F3;
+            align-self: center;
+            margin: 45px;
+        }
+
+        footer {
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #CFE2F3;
+        }
+
+        .down {
+            margin-top: 10px;
+            background-color: #FFE599;
+            width: 300px;
+            height: 50px;
+            align-self: flex-start;
+        }
+
+        .down2 {
+            background-color: #FFE599;
+            width: 300px;
+            height: 50px;
+            align-self: center;
+            margin-bottom: 40px;
+        }
+
+        .down3 {
+            background-color: #FFE599;
+            width: 300px;
+            height: 50px;
+            align-self: center;
+            margin-top: 50px;
+        }
+
+        .down4 {
+            background-color: #FFE599;
+            width: 300px;
+            height: 50px;
+            align-self: flex-end;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="flexcontainer">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </nav>
+
+        <div class="violet">
+            <div class="bigsquare"></div>
+            <div class="bigsquare"></div>
+            <div class="bigsquare"></div>
+            <div class="bigsquare"></div>
+        </div>
+
+        <div class="sidebar">
+            <div class="supersquare"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="down"></div>
+        <div class="down2"></div>
+        <div class="down3"></div>
+        <div class="down4"></div>
+    </footer>
+</body>
+</html>

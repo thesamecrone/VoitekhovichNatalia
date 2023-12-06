@@ -8,10 +8,12 @@ body {
     margin: 0;
 }
 
-.clearfix {
-    content: " ";
-    display: block;
-    clear: both;
+.flex {
+    display: flex;
+}
+
+.flex :first-child {
+    align-self: stretch;
 }
 
 header {
@@ -26,16 +28,11 @@ h1 {
     padding-top: 40px;
 }
 
-nav {
-    text-align: left; 
-    width: 200px; 
-    height: 400px;
-    float: left;
+.nav { 
+    background-color: yellow;
+    flex-grow: 1;
     padding-left: 25px;
     padding-top: 20px;
-    background-image: url(yellow.png);
-    background-repeat: repeat-y;
-    
 }
 
 ul {
@@ -44,7 +41,6 @@ ul {
 }
 
 .container {
-    margin-left: 15%;
     background-image: url(http://fe.it-academy.by/Sites/0043727/ball_football.png); 
     background-position: right;
     background-repeat: repeat-y;
@@ -85,4 +81,8 @@ footer {
     text-align: center;
     padding-top: 15px;
     min-height: 100%;
+}
+
+.clear {
+    clear: both;
 }
