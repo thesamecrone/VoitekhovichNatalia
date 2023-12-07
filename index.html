@@ -23,7 +23,24 @@
         100% {
         color: blue;
         }
-}
+
+        }
+
+        .house {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        text-decoration: none;
+        }
+
+        .home {
+        width: 20px;
+        height: 20px;
+        }
+
+        audio {
+        float: right;
+        }
+
         h2 {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 50px;
@@ -54,7 +71,6 @@
         .container {
         display: flex;
         justify-content: space-between;
-            flex-wrap: wrap;
         }
 
         ul {
@@ -75,13 +91,15 @@
         align-items: flex-end;
         }
 
-        img {
-        padding-top: 50px;
-        padding-right: 100px;
-        height: 450px
+        .serj {
+        height: 550px;
+        float: right;
+        
         }
 
         .dropbtn {
+            position: relative;
+            bottom: 90px;
             background-color: #152C4E;
             color: white;
             padding: 5px;
@@ -90,13 +108,13 @@
         }
 
         .dropdown {
-            position: relative;
             display: inline-block;
         }
 
         .dropdown-content {
             display: none;
-            position: absolute;
+            position: relative;
+            bottom: 90px;
             background-color: #C9BAB1;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -116,27 +134,27 @@
         .dropdown:hover .dropdown-content {display: block;}
 
         .dropdown:hover .dropbtn {background-color: #ECA388;}
+
     </style>
 </head>
 <body>
     <header>
+        <a class="house" href="https://docs.google.com/spreadsheets/d/1DC14rJMI7eaKjhx_OzVsNo3oRHh7CtqV2Zhoop5i5W4/edit?pli=1#gid=98198607" title="home">
+        <img class="home" src="images/free-icon-font-home-3917033.png" alt="pic">
+            HTML/CSS
+            <audio autoplay="autoplay" controls>
+                <source src="http://muz.mp3minusovki.com/music/fhvndfjwserjgt/247bab1c312b2335afe3f5c9b496a3d3/6fc3a17f6dbb3dd4acf97094fed5261d.mp3">
+                <a href="https://www.youtube.com/watch?v=CSvFpBOe8eY" target="_blank" title="2000-s mode">Enjoy</a>
+                </audio>
+          </a>
         <h2 class="animation-text">Hello, stranger</h2>
         <p>What are you looking for?
-            <span class="track">
-                <audio autoplay="autoplay" controls>
-                    <source src="http://muz.mp3minusovki.com/music/fhvndfjwserjgt/247bab1c312b2335afe3f5c9b496a3d3/6fc3a17f6dbb3dd4acf97094fed5261d.mp3">
-                    <a href="http://muz.mp3minusovki.com/music/fhvndfjwserjgt/247bab1c312b2335afe3f5c9b496a3d3/6fc3a17f6dbb3dd4acf97094fed5261d.mp3">Enjoy</a>
-                    </audio>
-            </span>
         </p>
         
     </header>
     <div class="container">
 
         <div class="dropdown">
-            <a href="https://docs.google.com/spreadsheets/d/1DC14rJMI7eaKjhx_OzVsNo3oRHh7CtqV2Zhoop5i5W4/edit?pli=1#gid=98198607" title="home">
-              HTML/CSS
-            </a>
             <button class="dropbtn">Base Homework</button>
             <div class="dropdown-content">
               <a href="base_homework/Diary.html" target="_blank" title="Diary Project">Diary - checked</a>
@@ -152,11 +170,13 @@
               <a href="base_homework/CSS_CHESS/chLbg.html" target="_blank" title="Harry Kasparov">chLbg</a>
               <a href="base_homework/CSS_CHESS/chLb.html" target="_blank" title="Harry Kasparov (version 2)">chLb</a>
             </div>
-          </div>
+        
 
-        <div>
-            <img src="images/n57016-removebg-preview.png" alt="pic">
-        <div>
+        
+
     </div>
+
+        <img class="serj" src="images/n57016-removebg-preview.png" alt="pic">
+  
 
 </body>
