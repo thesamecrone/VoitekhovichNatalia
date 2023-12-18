@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basket {
+    width: 100%; 
+    height: 600px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/64a1/5a4c/22a0adf36ee5a68b3f5e2d176e578c0c?Expires=1702857600&Signature=Xg5Rfuzz3EVTbjQDH6yaB8TgGnBM9iGe9tLGXIRqAFHdv0~fxy52KkqeOmzWVp~1xbhKW~c99weHcG-AdArqjcU0xSpH3EJ19IGm4iLEGSkiGG7~hr8q63c7f5afbGctzx3gqtCSOlDTpS2vph8IdmTO4tlYFyOwm25WN2EzR4LuvFiL1LztRHH~k3qcDkGOzmoNX-3gSrNcGoUGbZRD8B-IA2bKMxAEL~SM1j7G1T7ypJgW6VW66hco0K1P8eGxXAPH4nsHt-4DrothRvQcxPU9zzSzqXmep6ASsUmvk7O4LGRIjBDKe3C3swVLyQbE3gRUvbii3vPLbhpw0AFm7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-position: right;
+}
+
+header {
+    padding-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 122px; 
+    height: 41px; 
+}
+
+.head {
+    padding-top: 10px;
+    color: #495E4C; 
+    font-size: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 400; 
+    text-transform: lowercase; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.head2 {
+    padding-top: 10px;
+    width: 130px; 
+    height: 40px; 
+    text-decoration: none;
+    color: azure;
+    background: #5CCD6A; 
+    text-align: center;
+    box-shadow: 2px -2px 12px rgba(34.43, 110.50, 32.87, 0.36) inset; 
+    border-radius: 17px
+}
+
+p {
+    color: #495E4C; 
+    font-size: 64px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    line-height: 74px; 
+    word-wrap: break-word;
+}
+
+.mini {
+    padding-left: 100px;
+}
+
+span {
+    color: #5CCD6A;
+}
+
+.second {
+    color: #78C081;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 74px;
+    letter-spacing: 1.92px;
+    word-wrap: break-word;
+}
+
+.third {
+    color: #7CA381;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+img {
+    width: 10px;
+    height: 10px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.gps {
+    margin-top: 28px;
+    width: 30px;
+    height: 30px;
+}
+
+.fourth {
+    float: left;
+    padding: 20px;
+    color: #7B897D;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.fifth {
+    padding: 20px;
+    color: #7B897D;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
