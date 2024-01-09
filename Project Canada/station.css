@@ -878,10 +878,19 @@ h5 {
 }
 
 .aboutus {
+  font-style: italic;
+  background-color: #29335887;
   font-family: "Lato", sans-serif;
   font-size: 28px;
   color: #ddd;
-  padding-top: 200px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 30px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.logo2 {
+  padding-left: 150px;
 }
